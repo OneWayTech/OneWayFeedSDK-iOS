@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577C634720CE6AA800C72009 /* 电量申报.png in Resources */ = {isa = PBXBuildFile; fileRef = 577C634620CE6AA800C72009 /* 电量申报.png */; };
+		5780AAFE20CE4D73008CC29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5780AAFC20CE4D73008CC29F /* Main.storyboard */; };
+		5780AB0020CE4D74008CC29F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5780AAFF20CE4D74008CC29F /* Assets.xcassets */; };
+		5780AB0320CE4D74008CC29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5780AB0120CE4D74008CC29F /* LaunchScreen.storyboard */; };
+		5780AB0620CE4D74008CC29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780AB0520CE4D74008CC29F /* main.m */; };
+		5780AB0D20CE4D8D008CC29F /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780AB0C20CE4D8D008CC29F /* battery.png */; };
+		5799152620E251290068A9E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152320E251290068A9E5 /* ViewController.m */; };
+		5799152720E251290068A9E5 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152420E251290068A9E5 /* WaveView.m */; };
+		5799152D20E251E10068A9E5 /* OneWaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5799152A20E251E10068A9E5 /* OneWaySDK.bundle */; };
+		5799152E20E251E10068A9E5 /* libOneWayFeedSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */; };
+		5799153020E258820068A9E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152F20E258820068A9E5 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		577C634620CE6AA800C72009 /* 电量申报.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电量申报.png"; sourceTree = "<group>"; };
+		5780AAF320CE4D73008CC29F /* OneWayFeedSDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneWayFeedSDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5780AAF620CE4D73008CC29F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5780AAFD20CE4D73008CC29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5780AAFF20CE4D74008CC29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5780AB0220CE4D74008CC29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5780AB0420CE4D74008CC29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5780AB0520CE4D74008CC29F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5780AB0C20CE4D8D008CC29F /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
+		5799152120E251280068A9E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5799152220E251290068A9E5 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		5799152320E251290068A9E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5799152420E251290068A9E5 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		5799152A20E251E10068A9E5 /* OneWaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OneWaySDK.bundle; sourceTree = "<group>"; };
+		5799152B20E251E10068A9E5 /* OneWayFeedSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneWayFeedSDK.h; sourceTree = "<group>"; };
+		5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOneWayFeedSDK.a; sourceTree = "<group>"; };
+		5799152F20E258820068A9E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5780AAF020CE4D73008CC29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799152E20E251E10068A9E5 /* libOneWayFeedSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5780AAEA20CE4D73008CC29F = {
+			isa = PBXGroup;
+			children = (
+				5780AAF520CE4D73008CC29F /* OneWayFeedSDK-Demo */,
+				5780AAF420CE4D73008CC29F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5780AAF420CE4D73008CC29F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5780AAF320CE4D73008CC29F /* OneWayFeedSDK-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5780AAF520CE4D73008CC29F /* OneWayFeedSDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5799152920E251E10068A9E5 /* OneWayFeedSDK */,
+				5780AAF620CE4D73008CC29F /* AppDelegate.h */,
+				5799152F20E258820068A9E5 /* AppDelegate.m */,
+				5799152120E251280068A9E5 /* ViewController.h */,
+				5799152320E251290068A9E5 /* ViewController.m */,
+				5799152220E251290068A9E5 /* WaveView.h */,
+				5799152420E251290068A9E5 /* WaveView.m */,
+				5780AAFC20CE4D73008CC29F /* Main.storyboard */,
+				5780AAFF20CE4D74008CC29F /* Assets.xcassets */,
+				577C634620CE6AA800C72009 /* 电量申报.png */,
+				5780AB0C20CE4D8D008CC29F /* battery.png */,
+				5780AB0120CE4D74008CC29F /* LaunchScreen.storyboard */,
+				5780AB0420CE4D74008CC29F /* Info.plist */,
+				5780AB0520CE4D74008CC29F /* main.m */,
+			);
+			path = "OneWayFeedSDK-Demo";
+			sourceTree = "<group>";
+		};
+		5799152920E251E10068A9E5 /* OneWayFeedSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5799152A20E251E10068A9E5 /* OneWaySDK.bundle */,
+				5799152B20E251E10068A9E5 /* OneWayFeedSDK.h */,
+				5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */,
+			);
+			path = OneWayFeedSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5780AAF220CE4D73008CC29F /* OneWayFeedSDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5780AB0920CE4D74008CC29F /* Build configuration list for PBXNativeTarget "OneWayFeedSDK-Demo" */;
+			buildPhases = (
+				5780AAEF20CE4D73008CC29F /* Sources */,
+				5780AAF020CE4D73008CC29F /* Frameworks */,
+				5780AAF120CE4D73008CC29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneWayFeedSDK-Demo";
+			productName = "OneWayFeedSDK-Demo";
+			productReference = 5780AAF320CE4D73008CC29F /* OneWayFeedSDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5780AAEB20CE4D73008CC29F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ONEWAY;
+				TargetAttributes = {
+					5780AAF220CE4D73008CC29F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5780AAEE20CE4D73008CC29F /* Build configuration list for PBXProject "OneWayFeedSDK-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5780AAEA20CE4D73008CC29F;
+			productRefGroup = 5780AAF420CE4D73008CC29F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5780AAF220CE4D73008CC29F /* OneWayFeedSDK-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5780AAF120CE4D73008CC29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5780AB0320CE4D74008CC29F /* LaunchScreen.storyboard in Resources */,
+				5780AB0020CE4D74008CC29F /* Assets.xcassets in Resources */,
+				5780AB0D20CE4D8D008CC29F /* battery.png in Resources */,
+				5799152D20E251E10068A9E5 /* OneWaySDK.bundle in Resources */,
+				577C634720CE6AA800C72009 /* 电量申报.png in Resources */,
+				5780AAFE20CE4D73008CC29F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5780AAEF20CE4D73008CC29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5799153020E258820068A9E5 /* AppDelegate.m in Sources */,
+				5780AB0620CE4D74008CC29F /* main.m in Sources */,
+				5799152720E251290068A9E5 /* WaveView.m in Sources */,
+				5799152620E251290068A9E5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5780AAFC20CE4D73008CC29F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5780AAFD20CE4D73008CC29F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5780AB0120CE4D74008CC29F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5780AB0220CE4D74008CC29F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5780AB0720CE4D74008CC29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5780AB0820CE4D74008CC29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5780AB0A20CE4D74008CC29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KY8X22943;
+				INFOPLIST_FILE = "OneWayFeedSDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OneWayFeedSDK-Demo/OneWayFeedSDK",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.oneway.OneWayFeedSDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5780AB0B20CE4D74008CC29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KY8X22943;
+				INFOPLIST_FILE = "OneWayFeedSDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OneWayFeedSDK-Demo/OneWayFeedSDK",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.oneway.OneWayFeedSDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5780AAEE20CE4D73008CC29F /* Build configuration list for PBXProject "OneWayFeedSDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5780AB0720CE4D74008CC29F /* Debug */,
+				5780AB0820CE4D74008CC29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5780AB0920CE4D74008CC29F /* Build configuration list for PBXNativeTarget "OneWayFeedSDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5780AB0A20CE4D74008CC29F /* Debug */,
+				5780AB0B20CE4D74008CC29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5780AAEB20CE4D73008CC29F /* Project object */;
+}
