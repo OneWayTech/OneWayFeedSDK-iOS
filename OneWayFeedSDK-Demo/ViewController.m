@@ -74,6 +74,10 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [self updataBattery];
+}
+
 - (void)updataBattery{
     
     [self.waveView removeFromSuperview];
@@ -94,6 +98,5 @@
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
     self.batteryLevelLabel.frame = CGRectMake(0, CGRectGetMaxY(self.batteryImageView.frame) + 20, self.view.bounds.size.width, 30);
-
 }
 @end

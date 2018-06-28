@@ -28,7 +28,7 @@
     ViewController *home = [[ViewController alloc] init];
     home.tabBarItem.title = @"Home";
     home.tabBarItem.image = [UIImage imageNamed:@"home"];    
-    
+    [tabbar addChildViewController:home];
     
     UINavigationController *navigation = [OneWayFeedSDK nativeWithTabBarTitle:@"原生"
                tabBarImage:[UIImage imageNamed:@"safari"]];
@@ -39,7 +39,7 @@
 
     
     
-    [tabbar addChildViewController:home];
+  
     
 
    

@@ -15,9 +15,9 @@
 		5780AB0D20CE4D8D008CC29F /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780AB0C20CE4D8D008CC29F /* battery.png */; };
 		5799152620E251290068A9E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152320E251290068A9E5 /* ViewController.m */; };
 		5799152720E251290068A9E5 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152420E251290068A9E5 /* WaveView.m */; };
-		5799152D20E251E10068A9E5 /* OneWaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5799152A20E251E10068A9E5 /* OneWaySDK.bundle */; };
-		5799152E20E251E10068A9E5 /* libOneWayFeedSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */; };
 		5799153020E258820068A9E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799152F20E258820068A9E5 /* AppDelegate.m */; };
+		57B1FC6020E4FD49005037D3 /* OneWaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57B1FC5D20E4FD49005037D3 /* OneWaySDK.bundle */; };
+		57B1FC6120E4FD49005037D3 /* libOneWayFeedSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1FC5F20E4FD49005037D3 /* libOneWayFeedSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,10 @@
 		5799152220E251290068A9E5 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
 		5799152320E251290068A9E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5799152420E251290068A9E5 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
-		5799152A20E251E10068A9E5 /* OneWaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OneWaySDK.bundle; sourceTree = "<group>"; };
-		5799152B20E251E10068A9E5 /* OneWayFeedSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneWayFeedSDK.h; sourceTree = "<group>"; };
-		5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOneWayFeedSDK.a; sourceTree = "<group>"; };
 		5799152F20E258820068A9E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B1FC5D20E4FD49005037D3 /* OneWaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OneWaySDK.bundle; sourceTree = "<group>"; };
+		57B1FC5E20E4FD49005037D3 /* OneWayFeedSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneWayFeedSDK.h; sourceTree = "<group>"; };
+		57B1FC5F20E4FD49005037D3 /* libOneWayFeedSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOneWayFeedSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5799152E20E251E10068A9E5 /* libOneWayFeedSDK.a in Frameworks */,
+				57B1FC6120E4FD49005037D3 /* libOneWayFeedSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		5780AAF520CE4D73008CC29F /* OneWayFeedSDK-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5799152920E251E10068A9E5 /* OneWayFeedSDK */,
+				57B1FC5C20E4FD49005037D3 /* OneWayFeedSDK */,
 				5780AAF620CE4D73008CC29F /* AppDelegate.h */,
 				5799152F20E258820068A9E5 /* AppDelegate.m */,
 				5799152120E251280068A9E5 /* ViewController.h */,
@@ -89,12 +89,12 @@
 			path = "OneWayFeedSDK-Demo";
 			sourceTree = "<group>";
 		};
-		5799152920E251E10068A9E5 /* OneWayFeedSDK */ = {
+		57B1FC5C20E4FD49005037D3 /* OneWayFeedSDK */ = {
 			isa = PBXGroup;
 			children = (
-				5799152A20E251E10068A9E5 /* OneWaySDK.bundle */,
-				5799152B20E251E10068A9E5 /* OneWayFeedSDK.h */,
-				5799152C20E251E10068A9E5 /* libOneWayFeedSDK.a */,
+				57B1FC5D20E4FD49005037D3 /* OneWaySDK.bundle */,
+				57B1FC5E20E4FD49005037D3 /* OneWayFeedSDK.h */,
+				57B1FC5F20E4FD49005037D3 /* libOneWayFeedSDK.a */,
 			);
 			path = OneWayFeedSDK;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 				5780AB0320CE4D74008CC29F /* LaunchScreen.storyboard in Resources */,
 				5780AB0020CE4D74008CC29F /* Assets.xcassets in Resources */,
 				5780AB0D20CE4D8D008CC29F /* battery.png in Resources */,
-				5799152D20E251E10068A9E5 /* OneWaySDK.bundle in Resources */,
+				57B1FC6020E4FD49005037D3 /* OneWaySDK.bundle in Resources */,
 				577C634720CE6AA800C72009 /* 电量申报.png in Resources */,
 				5780AAFE20CE4D73008CC29F /* Main.storyboard in Resources */,
 			);
