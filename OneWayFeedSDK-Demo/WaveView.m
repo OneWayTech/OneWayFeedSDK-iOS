@@ -29,7 +29,7 @@
         _offset = 0;
         _waveWidth = frame.size.width;
         _waveHeight = 10;
-        _waveColor = [UIColor lightGrayColor];
+        _waveColor = [UIColor colorWithRed:75/255.0 green:217/255.0 blue:100/255.0 alpha:1];
         
         self.backgroundColor = [UIColor whiteColor];
         
